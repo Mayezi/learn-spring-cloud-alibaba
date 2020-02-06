@@ -8,10 +8,10 @@
 		<version>1.0</version>
 	</parent>
 	<groupId>com.mayezi</groupId>
-	<artifactId>nacos-discovery-consumer</artifactId>
+	<artifactId>nacos-discovery-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>nacos-discovery-consumer</name>
-	<description>nacos 服务消费者</description>
+	<name>nacos-discovery-gateway</name>
+	<description>nacos gateway</description>
 
 	<dependencies>
 		<dependency>
@@ -19,10 +19,9 @@
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>

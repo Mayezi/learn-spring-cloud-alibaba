@@ -24,6 +24,8 @@
         <module>nacos-discovery-provider</module>
         <module>nacos-discovery-consumer-feign</module>
         <module>nacos-discovery-gateway</module>
+        <module>nacos-config-client</module>
+        <module>nacos-config-client-loadpriority</module>
     </modules>
 
     <dependencyManagement>

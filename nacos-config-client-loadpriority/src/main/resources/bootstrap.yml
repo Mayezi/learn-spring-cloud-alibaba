@@ -1,0 +1,20 @@
+server:
+  port: 9006
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nacos-config-client-loadpriority
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        group: inspur
+#        配置namespace id
+        namespace: 8a473107-6060-4ae9-9baf-2c32a228f9a6
+#        通用配置
+        ext-config:
+          - data-id: commons.yml
+            group: DEFAULT_GROUP
+            refresh: true
